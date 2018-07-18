@@ -15,8 +15,7 @@ export default class Message  extends Component{
   constructor(props) {
     super(props);
     this.state = {
-        products: 'http://colorme.vn:8000/products?filter=7&user_id=14935' ,
-       
+        products: 'http://colorme.vn:8000/products?filter=7&user_id=14935',
     }
 }
   render() {
